@@ -14,23 +14,17 @@
     background-color: gold;
 }
 
-body{
-  background-color: 
-#510d7c;
+.bg-form.mb-3.form-box.mt-3 {
+  background-color:   #510d7c;
+  color: white;
+}
+.bg-form.mb-3.form-box.mt-5 {
+  background-color:   #510d7c;
+  color: white;
 }
 
-
-.mb-3.form-box.bg-form {
-  background-color: #12af0a;
-  
-}
-.mb-3.mt-5.form-box{
-  background-color: #12af0a;
-}
-
-.container-fluid{
-  background-color:
-  #d8b6fb;
+.bg-color.container-fluid.py-2.text-center{
+  color:  #510d7c;
   outline: none;
   padding: 4px 8px;
   border-radius: 12px;
@@ -112,13 +106,30 @@ h3 {
     border: 2px solid #0f0f0f;
     padding: 10px;
     margin-bottom: 10px;
-    background: 
-    #f9f9f9;
+    background: #f9f9f9;
     outline: none;
-  padding: 4px 8px;
-  border-radius: 12px;
-  border: solid 2px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    border: solid 2px;
   }
+
+.bg-button.btn.btn-success {
+  box-shadow: 0 0 3px green;
+}
+.bg-button.btn.btn-success:hover{
+  box-shadow: 0 0 3px green,
+  0 0 5px green, 0 0 10px green,
+  0 0 15px green, 0 0 20px green;
+}
+
+.bg-button.btn.btn-danger{
+  box-shadow: 0 0 3px red;
+}
+.bg-button.btn.btn-danger:hover{
+  box-shadow: 0 0 3px red,
+  0 0 5px red, 0 0 10px red,
+  0 0 15px red, 0 0 20px red;
+}
 
 .card-header{
  background-color: #d8b6fb;
