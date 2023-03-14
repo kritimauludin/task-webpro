@@ -14,16 +14,62 @@
     background-color: gold;
 }
 
+body{
+  background-color: 
+#510d7c;
+}
+
+
+.mb-3.form-box.bg-form {
+  background-color: #12af0a;
+  
+}
+.mb-3.mt-5.form-box{
+  background-color: #12af0a;
+}
+
+.container-fluid{
+  background-color:
+  #d8b6fb;
+  outline: none;
+  padding: 4px 8px;
+  border-radius: 12px;
+  border: solid 2px;
+}
+
 /* Style untuk form input */
 input[type="text"],
 input[type="date"],
+input[type="password"],
+input[type="number"],
 textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #f1f1f1;
-  margin-bottom: 10px;
-  width: 100%;
+  border: 5px solid transparent;
+  border-bottom: solid 5px;
+  padding: 5px 0px;
+  outline-style: none;
+  transition: .3s ease-out;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="number"],
+textarea
+:focus{
+  outline: none;
+  padding: 4px 8px;
+  border-radius: 12px;
+  border: solid 2px;
+}
+
+input[type="text"],
+input[type="date"], 
+input[type="password"], 
+input[type="number"], 
+textarea
+::placeholder{
+  color: #ccc;
+  transition: .3s;
 }
 
 /* Style untuk label pada form input */
@@ -56,15 +102,34 @@ label {
 h3 {
   margin-bottom: 20px;
   text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .form-box {
     border: 2px solid #0f0f0f;
     padding: 10px;
     margin-bottom: 10px;
+    background: 
+    #f9f9f9;
+    outline: none;
+  padding: 4px 8px;
+  border-radius: 12px;
+  border: solid 2px;
   }
 
-  .mahasiswa {
-    color: lightsalmon;
-  }
-  
+.card-header{
+ background-color: #d8b6fb;
+}
+
+.card-body{
+  background-color: #510d7c;
+  color: #fff;
+}
+
+.card-footer{
+  background-color: #d8b6fb;
+}
+
