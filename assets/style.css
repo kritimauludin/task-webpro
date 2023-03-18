@@ -130,17 +130,3 @@ h3 {
   0 0 5px red, 0 0 10px red,
   0 0 15px red, 0 0 20px red;
 }
-
-.card-header{
- background-color: #d8b6fb;
-}
-
-.card-body{
-  background-color: #510d7c;
-  color: #fff;
-}
-
-.card-footer{
-  background-color: #d8b6fb;
-}
-
